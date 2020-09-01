@@ -1,17 +1,21 @@
 import sqlite3
 
-def create_table():
+def create_table(item,quantity,price):
     conn = sqlite3.connect("lite.db")
     cur = conn.cursor()
     cur.execute("CREATE TABLE IF NOT EXISTS store (item TEXT, quantity INTIGER, price REAL)")
+    cur.execute("INSERT INTO store VALUES(?,?,?)",(item,quantity,price))
     conn.commit()
     conn.close()
 
-def insert(item,quantity,price):
+create_table("Coffe Cup", 10, 5.53)
+
+def view():
     conn = sqlite3.connect("lite.db")
     cur = conn.cursor()
-    cur.execute("INSERT INTO store VALUES(?,?,?)", (item,quantity,price))
-    conn.commit()
+    cur.execute("SELECT * FROM store")
+    rows=cur.fetchall()
     conn.close()
+    return rows
 
-insert("Water Glass", 10, 5.12)
+print(view())

@@ -14,7 +14,7 @@ def view():
     conn = sqlite3.connect("lite.db")
     cur = conn.cursor()
     cur.execute("SELECT * FROM store")
-    rows=cur.fetchall()
+    rows = cur.fetchall()
     conn.close()
     return rows
 

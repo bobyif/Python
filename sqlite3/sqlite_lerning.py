@@ -1,4 +1,4 @@
-import sqlite3
+import pyscopg2
 
 def create_table(item,quantity,price):
     conn = sqlite3.connect("lite.db")

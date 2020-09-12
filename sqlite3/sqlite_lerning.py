@@ -14,7 +14,7 @@ def view():
     cur.execute("SELECT * FROM store")
     rows = cur.fetchall()
     conn.close()
-    return rows
+    return rows 
 
 def delete(item):
     conn = sqlite3.connect("lite.db")
@@ -30,7 +30,7 @@ def uploade(quantity,item,price):
     conn.commit()
     conn.close()
 
-uploade(27, "Chocolate", 5.59)
+#uploade(27, "Chocolate", 5.59)
 #delete("Coffe Cup")
 print(view())
-#create_table("chocolate", 123, 5.53)
+create_table("cake", 18, 4.79)

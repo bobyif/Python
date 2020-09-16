@@ -2,11 +2,7 @@
 import folium
 import pandas
 
-map = folium.Map(location = [42.894841, 23.908586], min_zoom = 4, zoom_start = 15, tiles = "Stamen Terrain")
-
 data = pandas.read_csv("Volcanoes.txt")
-
-fgv = folium.FeatureGroup(name = "Volcanoes")
 
 LAT = list(data["LAT"])
 LON = list(data["LON"])
@@ -22,6 +18,9 @@ def colors(metres):
     else:
         return "red"
 
+map = folium.Map(location = [42.894841, 23.908586], min_zoom = 4, zoom_start = 15, tiles = "Stamen Terrain")
+
+fgv = folium.FeatureGroup(name = "Volcanoes")
 
 for a, b, el in zip(LAT, LON, ELEV):
     fgv.add_child(folium.CircleMarker(location = [a, b], popup = str(el) + "m", radius = 7,
@@ -38,3 +37,4 @@ map.add_child(fgp)
 map.add_child(folium.LayerControl())
 
 map.save("Map1.html")
+

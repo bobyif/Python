@@ -37,7 +37,7 @@ def uploade(quantity,item,price):
     conn.close()
 
 create_table()
-#uploade(27, "Chocolate", 5.59)
+uploade(27, "Chocolate", 5.59)
 #delete("Coffe Cup")
 #print(view())
 #create_table("cake", 18, 4.79)

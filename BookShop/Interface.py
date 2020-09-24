@@ -34,7 +34,7 @@ ISBN_text = StringVar()
 e2_left = Entry(window, textvariable=ISBN_text)
 e2_left.grid(row=2, column=3)
 
-#Configuring LISTBOX and SCROLLBAR
+# Configuring LISTBOX and SCROLLBAR
 
 list1 = Listbox(window, height=10, width=37)
 list1.grid(row=3, column=0, rowspan= 6, columnspan= 2)
@@ -45,7 +45,7 @@ sb1.grid(row=3, column=2, rowspan= 8)
 list1.configure(yscrollcommand=sb1.set)
 sb1.configure(command=list1.yview)
 
-#Buttons
+# Configuring Buttons for the program
 
 b1 = Button(window, text= "View all", width= 15)
 b1.grid(row=3, column= 3) 

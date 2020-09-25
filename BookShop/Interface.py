@@ -1,4 +1,5 @@
 from tkinter import *
+import backend
 
 window = Tk()
 
@@ -64,5 +65,3 @@ b1.grid(row=7, column= 3)
 
 b1 = Button(window, text= "Close", width= 15)
 b1.grid(row=8, column= 3)
-
-window.mainloop()

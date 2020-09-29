@@ -11,6 +11,14 @@ def search_command():
     for row in backend.search(title_text.get(), Aulthor_text.get(), year_text.get(), ISBN_text.get()):
         list1.insert(END,row)
 
+def add_command():
+    backend.insert(title_text.get(), Aulthor_text.get(), year_text.get(), ISBN_text.get())
+    list1.delete(0,END)
+    search_command()
+
+def updates_command():
+     
+
 window = Tk()
 
 # Text 
@@ -46,7 +54,7 @@ e2_left.grid(row=2, column=3)
 
 # Configuring LISTBOX and SCROLLBAR
 
-list1 = Listbox(window, height=10, width=37)
+list1 = Listbox(window, height=9, width=45)
 list1.grid(row=3, column=0, rowspan= 6, columnspan= 2)
 
 sb1 = Scrollbar(window)
@@ -63,10 +71,10 @@ b1.grid(row=3, column= 3)
 b1 = Button(window, text= "Search entry", width= 15, command=search_command)
 b1.grid(row=4, column= 3)
 
-b1 = Button(window, text= "Add entry", width= 15)
+b1 = Button(window, text= "Add entry", width= 15, command=add_command)
 b1.grid(row=5, column= 3)
 
-b1 = Button(window, text= "Update selected", width= 15)
+b1 = Button(window, text= "Update selected", width= 15, command=updates_command)
 b1.grid(row=6, column= 3)
 
 b1 = Button(window, text= "Delete selected", width= 15)

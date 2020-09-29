@@ -1,10 +1,19 @@
 from tkinter import *
 import backend
 
+def view_command():
+    list1.delete(0,END)
+    for row in backend.view():
+        list1.insert(END,row)
+
+def search_command():
+    list1.delete(0,END)
+    for row in backend.search(title_text.get(), Aulthor_text.get(), year_text.get(), ISBN_text.get()):
+        list1.insert(END,row)
+
 window = Tk()
 
 # Text 
-
 l1_left = Label(window, text=("Title"))
 l1_left.grid(row=0,column=0)
 
@@ -19,19 +28,19 @@ l2_right.grid(row=2, column=2)
 
 #Text entry
 
-title_text = StringVar()
-e1_left = Entry(window, textvariable= title_text)
+title_text=StringVar()
+e1_left = Entry(window, textvariable=title_text)
 e1_left.grid(row=0, column=1)
 
-year_text= StringVar
-e2_left = Entry(window, textvariable= year_text)
-e2_left.grid(row=2, column=1)
-
-Aulthor_text = StringVar()
+Aulthor_text=StringVar()
 e1_right = Entry(window, textvariable=Aulthor_text)
 e1_right.grid(row=0, column=3)
 
-ISBN_text = StringVar()
+year_text=StringVar()
+e2_left = Entry(window, textvariable=year_text)
+e2_left.grid(row=2, column=1)
+
+ISBN_text=StringVar()
 e2_left = Entry(window, textvariable=ISBN_text)
 e2_left.grid(row=2, column=3)
 
@@ -48,10 +57,10 @@ sb1.configure(command=list1.yview)
 
 # Configuring Buttons for the program
 
-b1 = Button(window, text= "View all", width= 15)
+b1 = Button(window, text= "View all", width= 15, command=view_command)
 b1.grid(row=3, column= 3) 
 
-b1 = Button(window, text= "Search entry", width= 15)
+b1 = Button(window, text= "Search entry", width= 15, command=search_command)
 b1.grid(row=4, column= 3)
 
 b1 = Button(window, text= "Add entry", width= 15)
@@ -65,3 +74,5 @@ b1.grid(row=7, column= 3)
 
 b1 = Button(window, text= "Close", width= 15)
 b1.grid(row=8, column= 3)
+
+mainloop()

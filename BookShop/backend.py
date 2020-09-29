@@ -25,7 +25,14 @@ def view():
     conn.close()
     return row
 
-def search(title = "", author = "", year = "",isbn = ""):
+def delete(id):
+    conn = sqlite3.connect("book.db")
+    cur = conn.cursor()
+    cur.execute("DELETE FROM book WHERE id=?", (id,))
+    conn.commit()
+    conn.close()
+
+def search(title= "",author= "",year= "",isbn= ""):
     conn = sqlite3.connect("book.db")
     cur = conn.cursor()
     cur.execute("SELECT * FROM book WHERE title=? OR author=? OR year=? OR isbn=?", (title,author,year,isbn))
@@ -33,8 +40,15 @@ def search(title = "", author = "", year = "",isbn = ""):
     conn.close()
     return row
 
+def update(id, title, author, year, isbn):
+    conn = sqlite3.connect("book.db")
+    cur = conn.cursor()
+    cur.execute("UPDATE book SET title=?, author=?, year=?, isbn=? WHERE id=?", (title, author, year, isbn, id))
+    conn.commit()
+    conn.close()
 
-commit()
 #insert("The End", "Jeison Station", 1284, 9342279582)
-#print(view())  
-print(search(title = "The End"))
+#delete(2)
+#update(3, "The Heist", "Smith Andwester", 1979, 9443269582) 
+#print(view())
+#print(search(title = "The End"))

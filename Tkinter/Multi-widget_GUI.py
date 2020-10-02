@@ -12,7 +12,7 @@ window = Tk()
 
 window.title("Multi-widget_GUI")
 
-l1= Label(window, height=3, width=10, text="current value: ")
+l1= Label(window, height=3, width=10, text="current value : ")
 l1.grid(row = 1, column = 1)
 
 e1_var = StringVar()

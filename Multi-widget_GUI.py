@@ -5,8 +5,7 @@ def kg_g_p_ou():
     t1.insert(END,grams)
     pounds = float(e1_var.get()) * 2.20963
     t2.insert(END,pounds)
-    ounces = float(e1_var.get()) * 35.266
-    t3.insert(END,ounces)
+    ounces = float(e1_var.get()) * 35.2664
 
 window = Tk()
 

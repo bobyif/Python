@@ -3,9 +3,9 @@ from tkinter import *
 def kg_g_p_ou():
     grams = float(e1_var.get()) * 1000
     t1.insert(END,grams)
-    pounds = float(e1_var.get()) * 2.20962
+    pounds = float(e1_var.get()) * 2.20963
     t2.insert(END,pounds)
-    ounces = float(e1_var.get()) * 35.264
+    ounces = float(e1_var.get()) * 35.266
     t3.insert(END,ounces)
 
 window = Tk()

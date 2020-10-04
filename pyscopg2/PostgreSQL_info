@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 password = fosatti
+=======
+password = fosatti
+>>>>>>> 3299f69b6645ce27d3a7561a5d11ee045f495fbc
 port = 5432

@@ -1,6 +1,11 @@
 from tkinter import *
 import backend
 
+def get_selected_row(event):
+    global selected_tuple
+    index=list1.curselection()[0]
+    selected_tuple = list1.get(index)
+
 def view_command():
     list1.delete(0,END)
     for row in backend.view():
@@ -16,8 +21,10 @@ def add_command():
     list1.delete(0,END)
     search_command()
 
-def updates_command():
-     
+#def updates_command():
+
+def delete_command():
+    backend.delete(selected_tuple[0])
 
 window = Tk()
 
@@ -63,6 +70,8 @@ sb1.grid(row=3, column=2, rowspan= 8)
 list1.configure(yscrollcommand=sb1.set)
 sb1.configure(command=list1.yview)
 
+list1.bind("<<ListboxSelect>>", get_selected_row)
+
 # Configuring Buttons for the program
 
 b1 = Button(window, text= "View all", width= 15, command=view_command)
@@ -74,10 +83,10 @@ b1.grid(row=4, column= 3)
 b1 = Button(window, text= "Add entry", width= 15, command=add_command)
 b1.grid(row=5, column= 3)
 
-b1 = Button(window, text= "Update selected", width= 15, command=updates_command)
+b1 = Button(window, text= "Update selected", width= 15)#, command=updates_command)
 b1.grid(row=6, column= 3)
 
-b1 = Button(window, text= "Delete selected", width= 15)
+b1 = Button(window, text= "Delete selected", width= 15, command= delete_command)
 b1.grid(row=7, column= 3)
 
 b1 = Button(window, text= "Close", width= 15)

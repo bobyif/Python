@@ -2,17 +2,24 @@ from tkinter import *
 import backend
 
 def get_selected_row(event):
-    global selected_tuple
-    index=list1.curselection()[0]
-    selected_tuple = list1.get(index)
-    e1_left.delete(0,END)
-    e1_left.insert(END,selected_tuple[1])
-    e1_right.delete(0,END)
-    e1_right.insert(END,selected_tuple[2])
-    e2_left.delete(0,END)
-    e2_left.insert(END,selected_tuple[3])
-    e2_right.delete(0,END)
-    e2_right.insert(END,selected_tuple[4])
+    try:
+        global selected_tuple
+        index=list1.curselection()[0]   
+        selected_tuple = list1.get(index)
+        e1_left.delete(0,END)
+        e1_left.insert(END,selected_tuple[1])
+        e1_right.delete(0,END)
+        e1_right.insert(END,selected_tuple[2])
+        e2_left.delete(0,END)
+        e2_left.insert(END,selected_tuple[3])
+        e2_right.delete(0,END)
+        e2_right.insert(END,selected_tuple[4])
+    except IndexError:
+        pass
+
+    except NameError:
+        pass
+
 
 def view_command():
     list1.delete(0,END)

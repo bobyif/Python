@@ -1,0 +1,26 @@
+from selenium import webdriver
+from sicreds import password as pw
+import time
+
+browser = webdriver.Chrome()
+browser.get("https://open.spotify.com")
+browser.maximize_window()
+log_in = browser.find_element_by_xpath("/html/body/div[3]/div/div[2]/div[1]/header/div[4]/button[2]")
+log_in.click()
+time.sleep(3)
+un = browser.find_element_by_id("login-username")
+un.send_keys("bobyif.if@gmail.com")
+passw = browser.find_element_by_id("login-password")
+passw.send_keys(pw)     
+button_remember = browser.find_element_by_xpath("/html/body/div[1]/div[2]/div/form/div[3]/div[1]/div/label/span")
+button_remember.click()
+log_in_button = browser.find_element_by_id("login-button")
+log_in_button.click()
+time.sleep(4)
+play_ksi = browser.find_element_by_class_name('f79dd23c27c3352da3ac3ba62d78f8ea-scss')
+play_ksi.click()
+time.sleep(2)
+ksi_songs = browser.find_element_by_xpath('/html/body/div[4]/div/div[2]/div[4]/div[1]/div/div[2]/section[1]/div[3]/div/button[1]')
+ksi_songs.click()
+time.sleep(2)
+browser.minimize_window()

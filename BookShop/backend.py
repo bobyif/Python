@@ -1,9 +1,7 @@
 import sqlite3
 
-conn = sqlite3.connect("book.db")
-cur = conn.cursor()
 
-def commit():
+def connect():
     conn = sqlite3.connect("book.db")
     cur = conn.cursor()
     cur.execute("CREATE TABLE IF NOT EXISTS book (id INTEGER PRIMARY KEY, title text, author text, year integer, isbn integer)")
@@ -47,6 +45,7 @@ def update(id, title, author, year, isbn):
     conn.commit()
     conn.close()
 
+connect()
 #insert("The End", "Jeison Station", 1284, 9342279582)
 #delete(2)
 #update(3, "The Heist", "Smith Andwester", 1979, 9443269582) 

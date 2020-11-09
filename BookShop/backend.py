@@ -2,13 +2,6 @@ import sqlite3
 
 class DataBase:
 
-
-    def __init__(self):
-        conn = sqlite3.connect("book.db")
-        cur = conn.cursor()
-        cur.execute("CREATE TABLE IF NOT EXISTS book (id INTEGER PRIMARY KEY, title text, author text, year integer, isbn integer)")
-        conn.commit()
-
     def __init__(self, db):
         self.conn = sqlite3.connect("book.db")
         self.cur = self.conn.cursor()
@@ -48,10 +41,6 @@ class DataBase:
 
         self.conn.close()
 
-    insert("The End", "Jeison Station", 1284, 9342279582)
-
-
-    
 
 #insert("The End", "Jeison Station", 1284, 9342279582)
 #delete(2)

@@ -19,7 +19,7 @@ class DataBase:
 
     def delete(self,id):
         conn = sqlite3.connect("book.db")
-        cur = conn.cursor()
+        cur = conn.cursor()a
         cur.execute("DELETE FROM book WHERE id=?", (id,))
         conn.commit()
         conn.close()

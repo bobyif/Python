@@ -5,4 +5,4 @@ class Account:
             self.balance =int(file.read())
 
 account = Account("balance.txt")
-print(account)
+print(account)  

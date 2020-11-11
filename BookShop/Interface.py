@@ -1,7 +1,8 @@
 from tkinter import *
 from backend import DataBase
 
-database = DataBase("book.db")
+
+database = DataBase("vscode\BookShop\backend.py" and "BookShop\backend.py")
 
 def get_selected_row(event):
     try:

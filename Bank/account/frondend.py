@@ -1,8 +1,6 @@
 #frontend.py
 from tkinter import *
-from backend import Database
-     
-database=Database("books.db")
+from acc import *
      
 class Window(object):
      
@@ -10,97 +8,82 @@ class Window(object):
      
         self.window = window
         
-        window.geometry('1080x720')    
+        self.path = "vscode\bank\account\jack.txt" and "bank\account\jack.txt" and "account\jack.txt" and "jack.txt"
 
-        self.window.wm_title("Bnak")
+        window.geometry('1080x750')    
+
+        self.window.wm_title("Bank")
      
-        l1=Label(window,text="Deposit")
-        l1.grid(row=0,column=3)
+        l1=Label(window,text="Deposit", pady = 50, font=("Helvetica", 30), bg="lightgrey")
+        l1.grid(row=2,column=4)
      
-        l2=Label(window,text="withdraw")
-        l2.grid(row=4,column=3)
-     
-        l3=Label(window,text="transfer")
-        l3.grid(row=8,column=3)
-     
-        self.title_text=StringVar()
-        self.e1=Entry(window,textvariable=self.title_text)
-        self.e1.grid(row=0,column=1)
-     
-        self.author_text=StringVar()
-        self.e2=Entry(window,textvariable=self.author_text)
-        self.e2.grid(row=0,column=3)
-     
-        self.year_text=StringVar()
-        self.e3=Entry(window,textvariable=self.year_text)
-        self.e3.grid(row=1,column=1)
-     
-        self.isbn_text=StringVar()
-        self.e4=Entry(window,textvariable=self.isbn_text)
-        self.e4.grid(row=1,column=3)
-     
+        self.depost_text=StringVar()
+        self.e1=Entry(window,textvariable=self.depost_text ,bd = 7, width = 25)
+        self.e1.grid(row=4,column=3)
+
+        b1=Button(window,text="deposit", width=12,command=self.deposit, bd = 6)
+        b1.grid(row=4,column=5)
+
         self.list1=Listbox(window, height=6,width=35)
-        self.list1.grid(row=2,column=0,rowspan=6,columnspan=2)
+        self.list1.grid(row=4,column=4, padx = 20)
      
-        sb1=Scrollbar(window)
-        sb1.grid(row=2,column=2,rowspan=6)
+
+        l2=Label(window,text="Withdraw", pady = 50, font=("Helvetica", 30), bg="lightgrey")
+        l2.grid(row=5,column=4)
      
-        self.list1.configure(yscrollcommand=sb1.set)
-        sb1.configure(command=self.list1.yview)
+        self.withdraw_text=StringVar()
+        self.e2=Entry(window,textvariable=self.withdraw_text,bd = 7, width = 25)
+        self.e2.grid(row=7,column=3)
+
+        b2=Button(window,text="withdraw", width=12,command=self.withdraw, bd = 6)
+        b2.grid(row=7,column=5)
+
+        self.list2=Listbox(window, height=6,width=35)
+        self.list2.grid(row=7,column=4, padx = 20)
+
+        l3=Label(window,text="Transfer", pady = 50, font=("Helvetica", 30), bg="lightgrey")
+        l3.grid(row=8,column=4)
      
-        self.list1.bind('<<ListboxSelect>>',self.get_selected_row)
+        self.transfer=StringVar()
+        self.e3=Entry(window,textvariable=self.transfer,bd = 7, width = 25)
+        self.e3.grid(row=9,column=3)
+
+        b3=Button(window,text="View all", width=12,command=self.transfer1, bd = 6)
+        b3.grid(row=9,column=5)
+
+        self.list3=Listbox(window, height=6,width=35)
+        self.list3.grid(row=9,column=4, padx = 20)
+
      
-        b1=Button(window,text="View all", width=12,command=self.view_command)
-        b1.grid(row=2,column=3)
-     
-        b2=Button(window,text="Search entry", width=12,command=self.search_command)
-        b2.grid(row=3,column=3)
-     
-        b3=Button(window,text="Add entry", width=12,command=self.add_command)
-        b3.grid(row=4,column=3)
-     
-        b4=Button(window,text="Update selected", width=12,command=self.update_command)
-        b4.grid(row=5,column=3)
-     
-        b5=Button(window,text="Delete selected", width=12,command=self.delete_command)
-        b5.grid(row=6,column=3)
-     
-        b6=Button(window,text="Close", width=12,command=window.destroy)
-        b6.grid(row=7,column=3)
-     
-    def get_selected_row(self,event):
-        index=self.list1.curselection()[0]
-        self.selected_tuple=self.list1.get(index)
-        self.e1.delete(0,END)
-        self.e1.insert(END,self.selected_tuple[1])
-        self.e2.delete(0,END)
-        self.e2.insert(END,self.selected_tuple[2])
-        self.e3.delete(0,END)
-        self.e3.insert(END,self.selected_tuple[3])
-        self.e4.delete(0,END)
-        self.e4.insert(END,self.selected_tuple[4])
-     
-    def view_command(self):
-        self.list1.delete(0,END)
-        for row in database.view():
-            self.list1.insert(END,row)
-     
-    def search_command(self):
-        self.list1.delete(0,END)
-        for row in database.search(self.title_text.get(),self.author_text.get(),self.year_text.get(),self.isbn_text.get()):
-            self.list1.insert(END,row)
-     
-    def add_command(self):
-        database.insert(self.title_text.get(),self.author_text.get(),self.year_text.get(),self.isbn_text.get())
-        self.list1.delete(0,END)
-        self.list1.insert(END,(self.title_text.get(),self.author_text.get(),self.year_text.get(),self.isbn_text.get()))
-     
-    def delete_command(self):
-        database.delete(self.selected_tuple[0])
-     
-    def update_command(self):
-        database.update(self.selected_tuple[0],self.title_text.get(),self.author_text.get(),self.year_text.get(),self.isbn_text.get())
-     
+    def deposit(self):
+        a = self.e1.get()
+        account.deposit(int(a))
+        account.commit()
+        with open(self.path, "r") as file:
+            self.balance =int(file.read())
+            self.full_balance = ("Your current balnce is :",self.balance,"lv")
+            self.list1.insert(END,self.full_balance)
+
+    def withdraw(self):
+        b = self.e2.get()
+        account.withdraw(int(b))
+        account.commit()
+        with open(self.path, "r") as file:
+            self.balance =int(file.read())
+            self.full_balance = ("Your current balnce is :",self.balance,"lv")
+            self.list2.insert(END,self.full_balance)
+
+    def transfer1(self):
+        c = self.e3.get()
+        checking.transfer(int(c))
+        checking.commit()
+        with open(self.path, "r") as file:
+            self.balance =int(file.read())
+            self.full_balance = ("Your current balnce is :",self.balance,"lv")
+            self.list3.insert(END,self.full_balance)
+
 window=Tk()
+window.configure(bg="lightgrey") 
 Window(window)
 window.mainloop()
+

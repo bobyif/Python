@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Bank",
-    "\\Bank\\account",
-    "\\BookShop"
+    "\\Bank\\account"
   ],
-  "SelectedNode": "\\Bank\\account\\jack.txt",
+  "SelectedNode": "\\Bank\\account",
   "PreviewInSolutionExplorer": false
 }

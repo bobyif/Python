@@ -24,7 +24,8 @@ class Checking(Account):
     def transfer(self, amount):
         self.balance -= (amount + self.fee)
 
-#jack_checking=Checking("vscode\Bank\account\jack.txt" and "Bank\account\jack.txt" and "account\jack.txt" and "jack.txt", 1)
+account = Account("vscode/Udemy_1/Bank/account/jack.txt" and "Udemy_1/Bank/account/jack.txt" and "Bank/account/jack.txt" and "account/jack.txt" and "jack.txt")
+checking = Checking("vscode/Udemy_1/Bank/account/jack.txt" and "Udemy_1/Bank/account/jack.txt" and "Bank/account/jack.txt" and "account/jack.txt" and "jack.txt", 1)
 #jack_checking.transfer(100)
 #jack_checking.commit()
 #print(jack_checking.balance)

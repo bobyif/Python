@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db561a7f-d8c1-44d6-98be-b9480a277034" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Udemy_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ardoino_clock/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ardoino_clock/.idea/ardoino_clock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ardoino_clock/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ardoino_clock/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ardoino_clock/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ardoino_clock/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ardoino_clock/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../brute force/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clock/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clock/.idea/clock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clock/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clock/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clock/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clock/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mobile_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/.idea/web_site.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/.idea/gunicorn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/app/.idea/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/app/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/jinja2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/jinja2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/jinja2/.idea/jinja2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/jinja2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/jinja2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/jinja2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/Udemy_1/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/Udemy_1/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../books.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vscode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vscode.pyproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vscode.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/app/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web_site/virtual/Lib/site-packages/gunicorn/app/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/Activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/activate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/deactivate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/easy_install-3.8.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/easy_install.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/flask.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/gunicorn.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/pip.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/pip3.8.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/pip3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_site/virtual/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../your_bank.db" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lOWlQLjF0Hxc1ZjQ2a27GDtGWh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="mobile_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Bobi\files\python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db561a7f-d8c1-44d6-98be-b9480a277034" name="Default Changelist" comment="" />
+      <created>1607468768427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607468768427</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>

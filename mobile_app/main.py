@@ -14,7 +14,6 @@ class SignUpScreen(Screen):
     pass
 
 
-
 class RootWidget(ScreenManager):
     pass
 

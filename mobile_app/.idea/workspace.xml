@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db561a7f-d8c1-44d6-98be-b9480a277034" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/../brute force/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../brute force/.idea/brute force.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../brute force/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../brute force/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../brute force/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../brute force/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/mobile_app/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../brute force/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../brute force/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist1/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist1/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="db561a7f-d8c1-44d6-98be-b9480a277034" name="Default Changelist" comment="Starting App">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/mobile_app/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vscode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vscode.pyproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vscode.sln" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +46,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RunManager">
     <configuration name="main.py" type="PythonConfigurationType" factoryName="Python">
@@ -98,7 +92,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607644030744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1607899171746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607899171746</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Starting App">
+      <created>1608163273106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608163273106</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Starting App">
+      <created>1608163434499</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608163434499</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Starting App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting App" />
   </component>
 </project>

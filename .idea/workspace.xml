@@ -2,18 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac36ec2c-e86f-4394-b41a-c9cd3e4a45dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.vs/Udemy_1/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Udemy_1/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_app/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vscode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vscode.pyproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vscode.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/your_bank.db" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/.idea/jsonSchemas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/.idea/mobile_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/design.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/hoverable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/logout_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/logout_nothover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/quotes/happy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/quotes/sad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/quotes/unloved.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/mobile_app/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/mobile_app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/mobile_app/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/mobile_app/.idea/jsonSchemas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/mobile_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/mobile_app/.idea/mobile_app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/mobile_app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/mobile_app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/mobile_app/design.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/mobile_app/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_app/.vs/mobile_app/users.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/clock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mobile_app" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,6 +73,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

@@ -2,14 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db561a7f-d8c1-44d6-98be-b9480a277034" name="Default Changelist" comment="Progress">
-      <change afterPath="$PROJECT_DIR$/.vs/mobile_app/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/.idea/jsonSchemas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/.idea/mobile_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/design.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/hoverable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/logout_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/logout_nothover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/quotes/happy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/quotes/sad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/quotes/unloved.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_app/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design.kv" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/mobile_app/design.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/mobile_app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/.idea/jsonSchemas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/.idea/mobile_app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/design.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/mobile_app/users.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.vs/mobile_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mobile_app" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.webOptions" />
   </component>
   <component name="RecentsManager">

@@ -59,8 +59,7 @@ class SignUpScreen(Screen):
 
             with open("users.json", "w") as file:
                 json.dump(users, file)
-            self.manager.current = "Sign_Up_Screen_Success"
-
+                self.manager.current = "Sign_Up_Screen_Success"
 
 class SignUpScreenSuccess(Screen):
     def go_login(self):

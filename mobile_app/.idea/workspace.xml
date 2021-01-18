@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db561a7f-d8c1-44d6-98be-b9480a277034" name="Default Changelist" comment="Progress">
-      <change afterPath="$PROJECT_DIR$/Social_Media_Scraping/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Social_Media_Scraping/.idea/Social_Media_Scraping.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Social_Media_Scraping/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Social_Media_Scraping/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Social_Media_Scraping/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Social_Media_Scraping/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Social_Media_Scraping/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Social_Media_Scraping/design.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Social_Media_Scraping/login.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Social_Media_Scraping/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="db561a7f-d8c1-44d6-98be-b9480a277034" name="Default Changelist" comment="Progress" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608342797629</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Progress">
+      <created>1611013459490</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611013459490</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Progress">
+      <created>1611013485798</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611013485798</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

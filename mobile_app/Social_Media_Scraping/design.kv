@@ -115,11 +115,49 @@
                 on_press: root.sign_up_list(root.ids.uname.text, root.ids.pword.text)
 
 
-<LoginSuccess>
-    GridLayout:
-        cols:1
-        Image:
-            source: root.scrape()
+<LoginSuccess>:
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'lLDixTz.jpg'
+    ScrollView:
+        GridLayout:
+            orientation: "lr-tb"
+            size_hint_y: None
+            height: self.minimum_height
+            row_default_height: 120
+            cols: 1
+            RelativeLayout:
+                cols: 1
+                Image:
+                    source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+                    size_hint: 1, 1
+                    pos_hint: {"center_x": 0.5, "center_y": 0.40}
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+            Image:
+                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
 
 
 <RootWidget>

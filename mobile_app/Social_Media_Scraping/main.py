@@ -9,7 +9,6 @@ from datetime import datetime
 import json
 
 # main program
-
 Builder.load_file("design.kv")
 
 
@@ -40,8 +39,7 @@ class SignUpScreen(Screen):
 
 
 class LoginSuccess(Screen):
-    def scrape(self):
-        return("950341410b64ab36187d82468fc98a20.jpg")
+    pass
 
 
 class RootWidget(ScreenManager):

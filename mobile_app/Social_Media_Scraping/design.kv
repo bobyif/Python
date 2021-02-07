@@ -28,13 +28,19 @@
                 size_hint: 0.35, 0.33
                 pos_hint: {"center_x": 0.69, "center_y": 0.5}
         RelativeLayout:
+            TextInput:
+                id: person
+                hint_text: "Person who you want to scrape from instagram"
+                font_size: "20sp"
+                size_hint: 0.35, 0.40
+                pos_hint: {"center_x": 0.5, "center_y": 1}
             Button:
                 text: "Login"
                 background_color: 1,1,155,1
                 opacity: 1 if self.state == "normal" else 0.5
                 size_hint: 0.30, 0.30
-                pos_hint: {"center_x": 0.5, "center_y": 0.9}
-                on_press: root.login(root.ids.username.text, root.ids.pword.text)
+                pos_hint: {"center_x": 0.5, "center_y": 0.5}
+                on_press: root.login(root.ids.username.text, root.ids.pword.text, root.ids.person.text)
             Label:
                 text_size: self.size
                 valign: 'middle'
@@ -114,6 +120,20 @@
                 opacity: 1 if self.state == "normal" else 0.5
                 on_press: root.sign_up_list(root.ids.uname.text, root.ids.pword.text)
 
+<LoginAlmostSuccess>:
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'lLDixTz.jpg'
+    GridLayout:
+        cols:1
+        padding: 50, 30
+        TextInput:
+            id: uname
+            hint_text: "person you want to scrap "
+            font_size: '35sp'
+            haling: "center"
 
 <LoginSuccess>:
     canvas.before:
@@ -134,12 +154,12 @@
                     source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
                     size_hint: 1, 1
                     pos_hint: {"center_x": 0.5, "center_y": 0.40}
-            Image:
-                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
-            Image:
-                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
-            Image:
-                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+                TextInput:
+                    id: person
+                    hint_text: "Password"
+                    password: True
+                    font_size: '35sp'
+                    haling: "center"
             Image:
                 source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
             Image:
@@ -165,5 +185,7 @@
         name: "login_screen"
     SignUpScreen
         name: "sign_up_screen"
+    LoginAlmostSuccess
+        name: "login_almost_success"
     LoginSuccess
         name: "login_success"

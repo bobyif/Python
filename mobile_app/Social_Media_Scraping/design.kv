@@ -18,29 +18,23 @@
                 id: username
                 hint_text: "Username"
                 font_size: "20sp"
-                size_hint: 0.35, 0.33
-                pos_hint: {"center_x": 0.32, "center_y": 0.5}
+                size_hint: 0.35, 0.35
+                pos_hint: {"center_x": 0.32, "center_y": 0.4}
             TextInput:
                 id: pword
                 hint_text: "Password"
                 font_size: "20sp"
                 hint_text: "Password"
-                size_hint: 0.35, 0.33
-                pos_hint: {"center_x": 0.69, "center_y": 0.5}
+                size_hint: 0.35, 0.35
+                pos_hint: {"center_x": 0.69, "center_y": 0.4}
         RelativeLayout:
-            TextInput:
-                id: person
-                hint_text: "Person who you want to scrape from instagram"
-                font_size: "20sp"
-                size_hint: 0.35, 0.40
-                pos_hint: {"center_x": 0.5, "center_y": 1}
             Button:
                 text: "Login"
                 background_color: 1,1,155,1
                 opacity: 1 if self.state == "normal" else 0.5
-                size_hint: 0.30, 0.30
-                pos_hint: {"center_x": 0.5, "center_y": 0.5}
-                on_press: root.login(root.ids.username.text, root.ids.pword.text, root.ids.person.text)
+                size_hint: 0.35, 0.35
+                pos_hint: {"center_x": 0.5, "center_y": 0.7}
+                on_press: root.login(root.ids.username.text, root.ids.pword.text)
             Label:
                 text_size: self.size
                 valign: 'middle'
@@ -128,12 +122,20 @@
             source: 'lLDixTz.jpg'
     GridLayout:
         cols:1
-        padding: 50, 30
+        padding: 80, 210
+        spacing: 20, 20
         TextInput:
-            id: uname
-            hint_text: "person you want to scrap "
+            id: person
+            hint_text: "person you want to scrap"
             font_size: '35sp'
             haling: "center"
+        Button:
+            text: "Scrap"
+            haling: "center"
+            font_size: '35sp'
+            opacity: 1 if self.state == "normal" else 0.5
+            background_color: 1,1,155,1
+            on_press: root.person(root.ids.person.text)
 
 <LoginSuccess>:
     canvas.before:
@@ -154,16 +156,7 @@
                     source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
                     size_hint: 1, 1
                     pos_hint: {"center_x": 0.5, "center_y": 0.40}
-                TextInput:
-                    id: person
-                    hint_text: "Password"
-                    password: True
-                    font_size: '35sp'
-                    haling: "center"
-            Image:
-                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
-            Image:
-                source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
+
             Image:
                 source: "5285db68-9ac5-47c3-868a-b5e3c611c44b_200x200.png"
             Image:

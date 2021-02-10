@@ -5,6 +5,7 @@ from kivy.lang import Builder
 from kivy.uix.screenmanager import ScreenManager, Screen
 from scrapper import scrapper
 from datetime import datetime
+from kivy.uix.image import Image
 import json
 
 # main program
@@ -16,13 +17,11 @@ class LoginScreen(Screen):
     def sign_up(self):
         self.manager.current = "sign_up_screen"
 
-    def login(self, username, pword, person):
+
+    def login(self, username, pword):
         with open("login.json") as file:
             user = json.load(file)
         if username in user and user[username]["password"] == pword:
-            global celeburty
-            celeburty = person
-            scrapper(celeburty)
             self.manager.current = "login_almost_success"
         else:
             self.ids.login_wrong.text = "Wrong password"
@@ -42,12 +41,13 @@ class SignUpScreen(Screen):
 
 
 class LoginAlmostSuccess(Screen):
-    pass
+    def person(self, person):
+        scrapper(person)
+        self.manager.current = "login_success"
 
 
 class LoginSuccess(Screen):
-    pass
-
+    print(Image(source="hollyh16.jpg"))
 
 class RootWidget(ScreenManager):
     pass

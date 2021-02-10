@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41a4b060-634e-499d-b67c-ce224efb964d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/clock.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/Udemy_1/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/Udemy_1/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../books.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile_app/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile_app/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vscode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vscode.pyproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vscode.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../your_bank.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookShop/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BookShop/backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile_app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile_app/Social_Media_Scraping/design.kv" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile_app/Social_Media_Scraping/design.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile_app/Social_Media_Scraping/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile_app/Social_Media_Scraping/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +34,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ardoino_clock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BookShop" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="clock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +59,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

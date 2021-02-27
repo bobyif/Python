@@ -47,18 +47,15 @@ while True:
     if status_list[-1] == 0 and status_list[-2] == 1:
         times.append(datetime.now())
 
-
     cv2.imshow("Gray frame", gray)
     cv2.imshow("Delta Frame", delta_frame)
     cv2.imshow("Threshold Frame", threshold_frame)
     cv2.imshow("Color Frame", frame)
 
     key = cv2.waitKey(1)
-
     if key == ord('q'):
         if status == 1:
             times.append(datetime.now())
-        break
 
 print(status_list)
 

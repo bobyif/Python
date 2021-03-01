@@ -1,6 +1,7 @@
 import cv2
-from datetime import datetime
 import pandas
+import smtplib
+from datetime import datetime
 from mail_script import send_email
 
 first_frame = None

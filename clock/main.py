@@ -1,34 +1,29 @@
-'''
-Created on 2011-12-02
+from tkinter import *
+from tkinter.ttk import *
 
-@author: Bobby Wood
-'''
+from time import strftime
+import datetime as dt
+import time
 
-## import the serial library
-import serial
+while True:
+    now = dt.datetime.now()
+    target = dt.datetime.combine(dt.date.today(), dt.time(minute=16))
+    if target < now:
+        target += dt.timedelta(days=1)
 
-## Boolean variable that will represent 
-## whether or not the arduino is connected
-connected = False
-
-## open the serial port that your ardiono 
-## is connected to.
-ser = serial.Serial("COM11", 9600)
-
-## loop until the arduino tells us it is ready
-while not connected:
-    serin = ser.read()
-    connected = True
-
-## Tell the arduino to blink!
-ser.write("1")
-
-## Wait until the arduino tells us it 
-## is finished blinking
-while ser.read() == '1':
-    ser.read()
-
-## close the port and end the program.
-ser.close()
+    time.sleep((target-now).total_seconds())
+    print("finished")
+    window = Tk()
+    window.title("Clock")
 
 
+    def time():
+        string = strftime("%H:%M:%S %p")
+        label.config(text=string)
+        label.after(500, time)
+
+
+    label = Label(window, font=("ds-digital", 300), background="Black", foreground="cyan")
+    label.pack(anchor="center")
+    time()
+    mainloop()

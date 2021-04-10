@@ -10,7 +10,7 @@ html, body {
     color: #e6ffff;
     overflow: hidden;
     text-align: center;
-    }
+}
 
 .container h1 {
     front-family; Arial, sans-serif;
@@ -40,4 +40,10 @@ html, body {
 
 .container p {
     margin: 100px;
+}
+
+.message{
+    front-family; Arial, sans-serif;
+    font-size: 15px;
+    color: #ff9999;
 }

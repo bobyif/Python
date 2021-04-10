@@ -14,7 +14,7 @@ class Data(db.Model):
 
     def __init__(self, email_, height_):
         self.email_ = email_
-        self.email_ = email_
+        self.height_ = height_
 
 
 @app.route("/")
@@ -28,7 +28,14 @@ def success():
         email = request.form["email_name"]
         height = request.form["height_name"]
         print(email, height)
-    return render_template("success.html")
+        if db.session.query(Data).filter(Data.email_ == email).count() == 0:
+            data = Data(email, height)
+            db.session.add(data)
+            db.session.commit()
+            return render_template("success.html")
+
+        return render_template("index.html",
+                               text="It seems like we've have received something from this account!")
 
 
 if __name__ == "__main__":

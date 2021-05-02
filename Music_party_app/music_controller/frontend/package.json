@@ -20,4 +20,9 @@
     "webpack-cli": "^4.6.0"
   },
   "dependencies": {
-    "@babel/plugin-proposal-class-propert
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "react-router-dom": "^5.2.0"
+  }
+}

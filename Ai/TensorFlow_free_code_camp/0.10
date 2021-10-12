@@ -1,5 +1,0 @@
-Collecting cycler
-  Using cached cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
-Requirement already satisfied: six in d:\games\anaconda\lib\site-packages (from cycler) (1.16.0)
-Installing collected packages: cycler
-Successfully installed cycler-0.10.0

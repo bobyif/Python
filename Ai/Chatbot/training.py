@@ -1,16 +1,17 @@
 import random
 import json
-import pickle
-import numpy as mp
+import pickle 
+import numpy as py
 import nltk
 from nltk.stem import WordNetLemmatizer
-import tensorflow
+from six import class_types
 from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 
 lemmatizer = WordNetLemmatizer()
 
-intents = json.loads(open("intents.json").read())
+intents = json.loads(open("Chatbot\intents.json").read())
 
 words = []
 classes = []
@@ -33,8 +34,4 @@ classes = sorted(set(classes))
 pickle.dump(words, open("words.pkl", "wb"))
 pickle.dump(words, open("classes.pkl", "wb"))
 
-training = []
-output_empty = [0] * len(classes)
-
-for document in documents:
-    s
+print(words)

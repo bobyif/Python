@@ -1,0 +1,137 @@
+def loctions():
+    try:
+        location1 = arr[int(x)][int(y)]
+        arr[int(x)][int(y)] = int(location1) - int(d)
+    except IndexError:
+        None 
+
+    for i in arr:
+        print(i)
+
+    #Top 
+    try:
+        if int(x) and int(y) >= 0:
+            location2 = arr[int(x) - 1][int(y)]
+            arr[int(x) - 1][int(y)] = int(location2) - n_d
+        else:
+            None
+    except IndexError:
+        None 
+    
+
+    #Bottom
+    try:
+        location3 = arr[int(x) + 1][int(y)]
+        arr[int(x) + 1][int(y)] = int(location3) - n_d
+    except IndexError:
+        None 
+
+    
+
+    #right
+    try:
+        location9 = arr[int(x)][int(y) + 1]
+        arr[int(x)][int(y) + 1] = int(location9) - n_d
+    except IndexError:
+        None 
+
+   
+
+    #left
+    try:
+       location4 = arr[int(x)][int(y) - 1]
+       arr[int(x)][int(y) - 1] = int(location4) - n_d
+    except IndexError:
+       None 
+
+    
+
+    #top left
+    try:
+        if int(x) and int(y) >= 0:
+            location5 = arr[int(x) - 1][int(y) -1]
+            arr[int(x) - 1][int(y) -1] = int(location5) - n_d
+        else:
+            None
+    except IndexError:
+        None 
+
+   
+
+    #bottom left
+    try:
+        location7 = arr[int(x) + 1][int(y) -1]
+        arr[int(x) + 1][int(y) -1] = int(location7) - n_d
+    except IndexError:
+        None 
+
+  
+
+    #Top right
+    try:
+        if int(x) and int(y) >= 0:
+            location6 = arr[int(x) - 1][int(y) + 1]
+            arr[int(x) - 1][int(y) + 1] = int(location6) - n_d
+        else:
+            None
+    except IndexError:
+        None 
+    
+   
+
+    #bottom right 
+    try:
+      
+        location8 = arr[int(x) + 1][int(y) + 1]
+        arr[int(x) + 1][int(y) + 1] = int(location8) - n_d
+        
+    except IndexError:
+        None  
+   
+
+
+rows, cols = int(input("Enter rows : ")), int(input("Enter columns : "))
+arr = [[100 for a in range(rows)] for b in range(cols)]
+
+while True:
+    print("///////")
+    for i in arr:
+        print(i)
+        
+    
+    
+    coordinates = input("Enter cordinates and damage : ")
+
+    if coordinates == "GAME OVER":
+        False
+        break
+    try:
+        x ,y, d = coordinates.split(",")
+        d = int(d)
+        n_d = 0
+        if d <= 30:
+            n_d = 5
+        elif d > 30 and d < 70:
+            n_d = 10
+        else:
+            n_d = d % 20
+            
+    except ValueError:
+        continue
+
+    
+
+
+    if int(x) < rows or int(y) < cols:
+        pass
+        loctions()
+        for i in arr:
+            for j in i:
+                if j <= 0:
+                    print("Game is Over")
+                    False
+    else:
+        pass
+
+
+

@@ -20,4 +20,4 @@ for i in all_freq.values():
 if answer == 1:
     print("NO")
 else:
-    print("YES")
+    print("YES")    

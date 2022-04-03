@@ -1,6 +1,3 @@
-from pydoc import doc
-
-
 class Characters:
     def __init__(self, id , name, color, attack_damage, health, shield, capacity):
         self.id = id
